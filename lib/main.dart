@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.grey,
       ),
-      initialRoute: '/discover',
+      initialRoute: '/',
       routes: {
         HomeScreen.routeName: (context) => const HomeScreen(),
         ArticleScreen.routeName: (context) => const ArticleScreen(),
